@@ -19,7 +19,8 @@ public class Studentdatabase {
 			Statement statement = con.createStatement();
 			int rows = statement.executeUpdate(sql);
 			if (rows > 0) {
-				System.out.println("A new student details has been inserted ");
+				System.out.println("A new student details has been inserted in table ");
+				
 				
 				
 			}
